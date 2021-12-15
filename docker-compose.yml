@@ -2,8 +2,8 @@ version: '3.5'
 services:
 
   webserver:
-    container_name: webserver2
-    image: phpstorm/php-71-apache-xdebug
+    container_name: webserver3
+    image: phpstorm/php-71-apache-xdebug-27
     restart: always
     ports:
       - "6080:80"
